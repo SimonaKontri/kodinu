@@ -1,0 +1,163 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.jumbotron {
+height: 100%;
+background-image: url('Images/desktop-background.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+z-index: 1;
+padding: 0 81px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 23px;
+    padding-right: 50.2px;
+    padding-left: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+}
+
+.menu > li {
+    display: inline-block;
+}
+
+.search li {
+    display: inline-block;
+    top: 41px;
+}
+
+.search {
+    margin-top: -10px;
+}
+
+.menu-option-title {
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+.man-head {
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.man-head span{/*Niekaip nepavyko pakelti šios eilutės šiek tiek aukščiau, kaip .xd faile*/
+align-self: center;
+margin-left: 12px;
+font-size: 10px;
+}
+
+.arrow {
+    margin-right: 45.5px; 
+}
+.video-trigger {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 41px;
+}
+
+.video-trigger span {
+align-self: center;
+margin-left: 18px;
+font-size: 15px;
+}
+
+.page-title {
+    font-size: 130px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.lead {
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 23 px; 
+}
+.cta {
+    margin-bottom: 23 px;
+}
+
+.button-main {
+        background-color: #E33323;
+        color: white;
+        border: 0;
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px 45px;/*šioje vietoje px dėjau iš akies, nes .xd faile buvo 45px 150px, o taip gaunasi labai didelis mygtukas*/
+        margin-bottom: 98px;
+      }
+
+.button-transparent {
+        background-color: transparent;
+        color: white;
+        border: 0;
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px 45px;
+    }
+
+    .trip-calendar {
+        color: white;
+        right: 40px;
+        bottom: 17px;
+    }
+    
+.trip-calendar > ul {
+    column-count: 4;
+    list-style-type: none;
+    right: 40px;
+}
+
+.trip-calendar-title {
+    font-size: 12px;
+    margin-bottom: 24px;/* Šioje vietoje nereaguoja į margin-bottom, manau, čia būsiu kažkokią esminę klaidą padariusi*/
+}
+
+.trip-calendar-value {
+    font-size: 42px;
+    margin-top: 24px;
+}
+
+.dots {
+    height: 100%;
+    padding: 0;
+    margin-left: 104px;
+    bottom: 0;
+}
+
+.social-network > ul > li {
+    display: inline-block;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}

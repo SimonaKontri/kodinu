@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.jumbotron {
+height: 100%;
+background-image: url('./Background-map.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+z-index: 1;
+padding: 20px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger{
+    align-self: center;
+}
+
+.trip-calendar {
+    position: absolute;
+    right: 0;
+    top: 142px;
+    padding: 12px;
+}
+
+.trip-calendar > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trip-calendar > ul > li {
+margin-bottom: 12px;
+text-align: right;
+}
+
+.trip-calendar-title,
+.trip-calendar-value {
+    display: block;
+}
+.trip-calendar-title {
+    font-size: 9px;
+    margin-bottom: 12px;
+}
+.trip-calendar-value {
+font-size: 34px;
+font-weight: bold;
+}
+.video-trigger {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+.video-trigger span {
+align-self: center;
+margin-left: 12px;
+}
+
+.page-heading {
+    margin-bottom: 30px;
+}
+
+.page-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.lead {
+    font-size: 18px;
+    margin: 0;
+    font-weight: lighter;
+}
+.cta {
+    margin-bottom: 23 px;
+}
+
+.button-main {
+        background-color: #E33323;
+        color: white;
+        border: 0;
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 13px 26px;
+        margin-bottom: 98px;
+      }
+
+.button-transparent {
+        background-color: transparent;
+        color: white;
+        border: 0;
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 13px 26px;
+    }
+.dots {
+    margin-bottom: 11px;
+    margin-left: 1px;
+}
